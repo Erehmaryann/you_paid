@@ -1,10 +1,10 @@
-import './App.css';
-import Sidewrapper from './component/SideWrapper/sidewrapper.component';
+import './App.scss';
+import Sidebar from './component/Sidebar/Sidebar.component';
 
 function App() {
   return (
     <div className="App">
-      <Sidewrapper />
+      <Sidebar />
     </div>
   );
 }
