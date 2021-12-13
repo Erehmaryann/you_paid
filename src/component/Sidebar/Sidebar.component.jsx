@@ -3,9 +3,20 @@ import Navlink from '../Navlink/Navlink.component';
 
 const data = [
 	{ img: '/assets/images/svg/dashboard.svg', name: 'Dashboard', link: '/' },
-	{ img: '/Fill 5.svg', name: 'About', link: '/about' },
-	{ img: '/Vector.svg', name: 'Services', link: '/services' },
-	{ img: '/Group.svg', name: 'Contact', link: '/contact' },
+	{
+		img: '/assets/images/svg/payment.svg',
+		name: 'Make payment',
+		link: '/payment',
+	},
+	{ img: '/assets/images/svg/history.svg', name: 'History', link: '/history' },
+	{ img: '/assets/images/svg/receipt.svg', name: 'Receipt', link: '/receipt' },
+	{
+		img: '/assets/images/svg/report.svg',
+		name: 'Report Issue',
+		link: '/report',
+	},
+	{ img: '/assets/images/svg/profile.svg', name: 'Profile', link: '/profile' },
+	{ img: '/assets/images/svg/logout.svg', name: 'Log out', link: '/logout' },
 ];
 
 const sidebar = () => {
@@ -18,12 +29,9 @@ const sidebar = () => {
 				<img
 					src='/assets/images/svg/jer.svg'
 					alt='logo'
-					className='rounded-circle'
+					className='rounded-circle p-2 m-1'
 					style={{
 						background: '#E0E0E0',
-						width: '100px',
-						height: '100px',
-						borderRadius: '50%',
 					}}
 				/>
 				<h3 className='m-0'>Jermaine Cole</h3>
