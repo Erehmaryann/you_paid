@@ -21,11 +21,17 @@ const data = [
 
 const sidebar = () => {
 	return (
-		<div className='min-vh-100' style={{ background: '#fff' }}>
-			<div className='d-none d-md-block'>
-				<img src='/assets/images/svg/logo.svg' alt='logo' className='' />
+		<div
+			className='min-vh-100 p-3'
+			style={{ background: '#fff', width: '20%' }}>
+			<div className='d-none d-md-block m-3 pb-3'>
+				<img
+					src='/assets/images/svg/logo.svg'
+					alt='logo'
+					style={{ width: '6rem' }}
+				/>
 			</div>
-			<div className='d-block d-md-none'>
+			<div className='d-block d-md-none m-3 pb-3'>
 				<img
 					src='/assets/images/svg/jer.svg'
 					alt='logo'
@@ -36,6 +42,7 @@ const sidebar = () => {
 				/>
 				<h3 className='m-0'>Jermaine Cole</h3>
 				<p className='m-0'>colecpe/17/3000@futa.edu.ng</p>
+				<hr />
 			</div>
 			{data.map((item, index) => (
 				<Navlink

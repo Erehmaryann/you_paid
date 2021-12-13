@@ -17,13 +17,14 @@ const Navlink = ({ img, name, variant, to, color }) => {
 					display: 'block',
 					margin: '1rem 0',
 					color: isActive ? ' #87CDF6' : '#000',
+					background: isActive ? 'rgba(135, 205, 246, 0.2)' : '#fff',
 				};
 			}}
 			to={to}
-			className='d-flex align-item-center'
+			className='d-flex align-item-center nav-link'
 			color={color}>
 			<img src={img} alt={`${name}-img`} className='p-1 d-inline-block' />
-			<span className='d-inline-block'>{name}</span>
+			<span className='d-inline-block ps-4'>{name}</span>
 		</Type>
 	);
 };
