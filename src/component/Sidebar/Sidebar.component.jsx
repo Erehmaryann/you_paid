@@ -21,9 +21,7 @@ const data = [
 
 const sidebar = () => {
 	return (
-		<div
-			className='min-vh-100 p-3'
-			style={{ background: '#fff', width: '20%' }}>
+		<div className='min-vh-100 p-3 col' style={{ background: '#fff' }}>
 			<div className='d-none d-md-block m-3 pb-3'>
 				<img
 					src='/assets/images/svg/logo.svg'
@@ -37,7 +35,7 @@ const sidebar = () => {
 					alt='logo'
 					className='rounded-circle p-2 m-1'
 					style={{
-						background: '#423131',
+						background: '#E0E0E0',
 					}}
 				/>
 				<h3 className='m-0'>Jermaine Cole</h3>

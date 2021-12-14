@@ -4,7 +4,7 @@ const Dues = ({ img, name }) => {
 	return (
 		<div className=''>
 			<img
-				className='p-3 rounded-3'
+				className='p-4 rounded-3'
 				src={img}
 				alt={`${name}-img`}
 				style={{ background: '#8CE68C' }}

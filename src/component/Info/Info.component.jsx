@@ -33,7 +33,7 @@ const Info = () => {
 		<div
 			className='p-4'
 			style={{ background: '#87CDF6', borderRadius: '21px' }}>
-			<span className='p-4'>
+			<span className='p-2'>
 				Total Amount paid: <b># 24,000</b>
 			</span>
 			<div className='row'>
