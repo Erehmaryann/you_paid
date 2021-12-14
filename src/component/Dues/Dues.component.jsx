@@ -7,7 +7,7 @@ const Dues = ({ img, name }) => {
 				className='p-4 rounded-3'
 				src={img}
 				alt={`${name}-img`}
-				style={{ background: '#8CE68C' }}
+				style={{ background: '#8CE68C', width: '80px', height: '80px' }}
 			/>
 			<p style={{ fontSize: '0.8rem' }} className='py-3'>
 				{name}

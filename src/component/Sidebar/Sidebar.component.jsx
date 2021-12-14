@@ -2,7 +2,12 @@ import React from 'react';
 import Navlink from '../Navlink/Navlink.component';
 
 const data = [
-	{ img: '/assets/images/svg/dashboard.svg', name: 'Dashboard', link: '/' },
+	{
+		img: '/assets/images/svg/dashboard.svg',
+		name: 'Dashboard',
+		link: '/dashboard',
+	},
+	{ img: '/assets/images/svg/profile.svg', name: 'Profile', link: '/profile' },
 	{
 		img: '/assets/images/svg/payment.svg',
 		name: 'Make payment',
@@ -15,13 +20,12 @@ const data = [
 		name: 'Report Issue',
 		link: '/report',
 	},
-	{ img: '/assets/images/svg/profile.svg', name: 'Profile', link: '/profile' },
 	{ img: '/assets/images/svg/logout.svg', name: 'Log out', link: '/logout' },
 ];
 
 const sidebar = () => {
 	return (
-		<div className='min-vh-100 p-3 col' style={{ background: '#fff' }}>
+		<div className='min-vh-100 p-3 col-md-3' style={{ background: '#fff' }}>
 			<div className='d-none d-md-block m-3 pb-3'>
 				<img
 					src='/assets/images/svg/logo.svg'

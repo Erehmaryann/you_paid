@@ -5,7 +5,7 @@ import SchoolDues from '../SchoolDues/SchoolDues.component';
 const PaymentWrapper = () => {
 	return (
 		<div
-			className='min-vh-100 p-4 col-lg-6'
+			className='min-vh-100 p-4 col-lg-8'
 			style={{ backgroundColor: ' #87cdf633' }}>
 			<div className='py-4 d-flex justify-content-between px-2'>
 				<div>

@@ -1,14 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
 import './App.scss';
-import PaymentWrapper from './component/PaymentWrapper/PaymentWrapper.component';
 import Sidebar from './component/Sidebar/Sidebar.component';
-import TransWrapper from './component/TransWrapper/TransWrapper.component';
+import Dashboard from './pages/Dashboard.component';
+import ProfilePage from './pages/ProfilePage.component';
 
 function App() {
   return (
     <div className="App w-100 row">
       <Sidebar />
-      <PaymentWrapper />
-      <TransWrapper />
+      <Routes>
+        <Route path="dashboard" element={<Dashboard />} />
+        <Route path="profile" element={<ProfilePage />} />
+      </Routes>
     </div>
   );
 }

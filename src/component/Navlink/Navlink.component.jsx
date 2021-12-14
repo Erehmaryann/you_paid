@@ -3,7 +3,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navlink = ({ img, name, variant, to, color }) => {
-	console.log(img, 'img');
 	return (
 		<>
 			{variant === 'link' ? (

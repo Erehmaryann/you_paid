@@ -19,13 +19,11 @@ const data = [
 const SchoolDues = () => {
 	return (
 		<div className='ps-4 row'>
-			{/* <div className='col-1' /> */}
 			{data.map((item, index) => (
 				<div className='col-3' key={index}>
 					<Dues {...item} />
 				</div>
 			))}
-			{/* <div className='col' /> */}
 		</div>
 	);
 };
