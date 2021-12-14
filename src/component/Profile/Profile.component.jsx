@@ -11,14 +11,13 @@ const Profile = () => {
 					style={{ background: '#fff', width: '200px', height: '200px' }}
 				/>
 			</div>
-			<div className='d-flex justify-content-around align-items-center mt-4'>
-				<div>
-					<p>Full Name</p>
-					<p className='p-2 shadow rounded-3 bg-light text-center w-25'>
-						Jermaine Cole
-					</p>
+			<div className='d-flex justify-content-around align-items-center mt-5 flex-column'>
+				<p style={{ color: '#08517A', textAlign: 'justify' }}>Full Name:</p>
+				<div className='p-2 shadow rounded-3 bg-light mb-3 w-50'>
+					Jermaine Cole
 				</div>
-				<div className='p-2 shadow rounded-3 bg-light text-center w-25'>
+				<p style={{ color: '#08517A', textAlign: 'justify' }}>Email:</p>
+				<div className='p-2 shadow rounded-3 bg-light mb-3 w-50'>
 					colecpe/17/3000@futa.edu.ng
 				</div>
 			</div>

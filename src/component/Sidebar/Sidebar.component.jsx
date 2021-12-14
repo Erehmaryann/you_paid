@@ -20,7 +20,7 @@ const data = [
 		name: 'Report Issue',
 		link: '/report',
 	},
-	{ img: '/assets/images/svg/logout.svg', name: 'Log out', link: '/logout' },
+	{ img: '/assets/images/svg/logout.svg', name: 'Log out', link: '/' },
 ];
 
 const sidebar = () => {
