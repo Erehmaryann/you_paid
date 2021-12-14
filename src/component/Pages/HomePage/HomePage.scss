@@ -1,0 +1,60 @@
+.button:focus {
+  border: 2px solid #8ce68c !important;
+  outline: none;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+}
+
+.other {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.header-section {
+  padding: 0 8%;
+}
+.header-button {
+  width: 8.8rem;
+  height: 3.3rem;
+  color: #8ce68c;
+  background-color: white;
+  letter-spacing: 1px;
+  border: 2px solid #8ce68c !important;
+}
+.mid-section {
+  color: white;
+  width: 62%;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 16%;
+}
+
+.footer {
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.first-paragraph {
+  color: white;
+  font-size: 15px;
+  width: 35%;
+}
+
+@media screen and (max-width: 600px) {
+  .first-paragraph {
+    width: 100%;
+  }
+  .mid-section {
+    width: 100%;
+  }
+  .icon1 {
+    margin: auto;
+    display: block;
+    // width: 6rem;
+  }
+}
