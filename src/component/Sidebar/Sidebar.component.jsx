@@ -37,7 +37,7 @@ const sidebar = () => {
 					alt='logo'
 					className='rounded-circle p-2 m-1'
 					style={{
-						background: '#E0E0E0',
+						background: '#423131',
 					}}
 				/>
 				<h3 className='m-0'>Jermaine Cole</h3>
