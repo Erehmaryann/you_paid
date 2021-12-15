@@ -14,13 +14,17 @@ const data = [
 		link: '/payment',
 	},
 	{ img: '/assets/images/svg/history.svg', name: 'History', link: '/history' },
-	{ img: '/assets/images/svg/receipt.svg', name: 'Receipt', link: '/receipt' },
+	{
+		img: '/assets/images/svg/receipt.svg',
+		name: 'Print Receipt',
+		link: '/receipt',
+	},
 	{
 		img: '/assets/images/svg/report.svg',
 		name: 'Report Issue',
 		link: '/report',
 	},
-	{ img: '/assets/images/svg/logout.svg', name: 'Log out', link: '/logout' },
+	{ img: '/assets/images/svg/logout.svg', name: 'Log out', link: '/' },
 ];
 
 const sidebar = () => {

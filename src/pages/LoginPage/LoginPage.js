@@ -1,16 +1,13 @@
 import React from "react";
-import Logo from "./assets/logo.svg";
 import "./Login.scss";
-import vector from "./assets/Vector.svg";
-import vector1 from "./assets/Vector-1.svg";
-import vector2 from "./assets/Color.svg";
+import { Link } from "react-router-dom";
 
 function LoginPage() {
   return (
     <div className='login d-flex flex-column  pt-5'>
       <div className='logo d-flex flex-row justify-content-center align-items-center'>
         <img
-          src={`${Logo}`}
+          src='/assets/imagees/svg/logo.svg'
           alt=''
           style={{
             width: "6rem",
@@ -40,7 +37,7 @@ function LoginPage() {
                 >
                   <img
                     className='px-2 d-flex '
-                    src={`${vector}`}
+                    src='/assets/images/svg/vector1.svg'
                     alt=''
                     style={{
                       marginTop: "2rem",
@@ -60,7 +57,7 @@ function LoginPage() {
                 >
                   <img
                     className='px-2 d-flex'
-                    src={`${vector1}`}
+                    src='/assets/images/svg/vector-1.svg'
                     alt=''
                     style={{
                       marginTop: "2rem",
@@ -78,7 +75,7 @@ function LoginPage() {
                 >
                   <img
                     className='px-2 d-flex '
-                    src={`${vector2}`}
+                    src='/assets/images/svg/color.svg'
                     alt=''
                     style={{
                       marginTop: "2rem",
@@ -93,7 +90,7 @@ function LoginPage() {
             </form>
             <div className='support d-flex justify-content-center align-items-center'>
               <p>
-                Unable to login? <span>contact support</span>
+                new user? <Link to='/signup'>Sign up</Link>
               </p>
             </div>
           </div>

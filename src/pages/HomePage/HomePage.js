@@ -1,8 +1,5 @@
 import React from "react";
-import BackgroundImage from "./assets/background.svg";
-import { ReactComponent as Logo } from "./assets/logo.svg";
-import icon from "./assets/Vector.svg";
-import icon1 from "./assets/Vector1.svg";
+import { Link } from "react-router-dom";
 import "./HomePage.scss";
 function HomePage() {
   return (
@@ -11,22 +8,27 @@ function HomePage() {
         className='background-image'
         style={{
           background: `linear-gradient(to bottom, rgba(10, 130, 180, 0.45), rgba(10, 130, 180, 0.45)),
-          url(${BackgroundImage})`,
+          url('/assets/images/svg/background.svg')`,
         }}
       ></div>
       <div className='other'>
         <div className='header-section d-flex flex-row justify-content-between align-items-center '>
           <div className='logo'>
-            <Logo
+            <img
+              src='/assets/images/svg/logo.svg'
+              alt=''
               style={{
                 width: "6rem",
               }}
             />
           </div>
           <div>
-            <button className='header-button btn btn-lg border border-1 rounded-2 fs-5 fw-bold d-flex justify-content-center align-items-center '>
+            <Link
+              to='/login'
+              className='header-button btn btn-lg border border-1 rounded-2 fs-5 fw-bold d-flex justify-content-center align-items-center '
+            >
               Log In
-            </button>
+            </Link>
           </div>
         </div>
         <div className='mid-section  fs-1  fw-bolder'>
@@ -47,7 +49,7 @@ function HomePage() {
           <div className='footer-left d-md-flex  justify-content-center align-items-center px-5 border-end'>
             <img
               className='icon1'
-              src={`${icon1}`}
+              src='/assets/images/svg/Vector-1'
               alt=''
               style={{
                 width: "8rem",
@@ -69,7 +71,7 @@ function HomePage() {
           >
             <img
               className='icon1'
-              src={`${icon}`}
+              src='/assets/images/svg/vector.svg'
               alt=''
               style={{
                 width: "3rem",
