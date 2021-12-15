@@ -23,7 +23,6 @@ const data = [
 const SchoolDues = () => {
 	return (
 		<div className='ps-4 row'>
-			{/* {data.map((item, index) => ( */}
 			<div className='col-3' key={data[0].id}>
 				<Dues name={data[0].name} img={data[0].img} />
 			</div>
@@ -35,7 +34,6 @@ const SchoolDues = () => {
 			<div className='col-3' key={data[2].id}>
 				<Dues name={data[2].name} img={data[2].img} />
 			</div>
-			{/* ))} */}
 		</div>
 	);
 };
