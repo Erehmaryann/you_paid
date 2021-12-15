@@ -17,7 +17,7 @@ function SignUp() {
       <div className='main-login'>
         <div className='login-sub '>
           <div className='login-intro'>
-            <h1 className='fs-5 fw-bold'>Login</h1>
+            <h1 className='fs-5 fw-bold'>Sign Up</h1>
             <p
               style={{
                 marginBottom: "0",
