@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function LoginPage() {
   return (
-    <div className='login d-flex flex-column  pt-5'>
+    <div className='login d-flex flex-column row col'>
       <div className='logo d-flex flex-row justify-content-center align-items-center'>
         <img
           src='/assets/imagees/svg/logo.svg'
@@ -29,43 +29,31 @@ function LoginPage() {
           <div className='form'>
             <form>
               <div className='first-inp d-flex justify-content-start align-items-center'>
-                <div
-                  className='img'
-                  style={{
-                    position: "absolute",
-                  }}
-                >
-                  <img
-                    className='px-2 d-flex '
-                    src='/assets/images/svg/vector1.svg'
-                    alt=''
-                    style={{
-                      marginTop: "2rem",
-                      left: "10px",
-                    }}
-                  />
-                </div>
 
-                <input type='text' placeholder='Matric Number' />
+                <img
+                  className='px-2 d-flex img'
+                  src='/assets/images/svg/profile.svg'
+                  alt=''
+                  style={{
+                    marginTop: "2rem",
+                    position: "absolute",
+                    left: "10px",
+                  }}
+                />
+                <input type='text' placeholder='Matric Number' className='ps-5 d-inline-block' />
               </div>
               <div className='first-inp d-flex justify-content-start align-items-center'>
-                <div
-                  className='img '
+                <img
+                  className='px-2 d-flex img'
+                  src='/assets/images/svg/vector-1.svg'
+                  alt=''
                   style={{
-                    position: "absolute",
+                    marginTop: "2rem",
+                    position: 'absolute',
+                    left: "10px",
                   }}
-                >
-                  <img
-                    className='px-2 d-flex'
-                    src='/assets/images/svg/vector-1.svg'
-                    alt=''
-                    style={{
-                      marginTop: "2rem",
-                      left: "10px",
-                    }}
-                  />
-                </div>
-                <input type='password' placeholder='password' />
+                />
+                <input type='password' placeholder='password' className='ps-5 d-inline-block' />
                 <div
                   className='img'
                   style={{
@@ -84,7 +72,7 @@ function LoginPage() {
                   />
                 </div>
               </div>
-              <button type='submit' className='button'>
+              <button type='submit' className='button btn'>
                 LogIn
               </button>
             </form>

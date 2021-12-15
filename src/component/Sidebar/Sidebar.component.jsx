@@ -5,24 +5,32 @@ const data = [
 	{
 		img: '/assets/images/svg/dashboard.svg',
 		name: 'Dashboard',
-		link: '/dashboard',
+		link: '/main/dashboard',
 	},
-	{ img: '/assets/images/svg/profile.svg', name: 'Profile', link: '/profile' },
+	{
+		img: '/assets/images/svg/profile.svg',
+		name: 'Profile',
+		link: '/main/profile',
+	},
 	{
 		img: '/assets/images/svg/payment.svg',
 		name: 'Make payment',
-		link: '/payment',
+		link: '/main/payment',
 	},
-	{ img: '/assets/images/svg/history.svg', name: 'History', link: '/history' },
+	{
+		img: '/assets/images/svg/history.svg',
+		name: 'History',
+		link: '/main/history',
+	},
 	{
 		img: '/assets/images/svg/receipt.svg',
 		name: 'Print Receipt',
-		link: '/receipt',
+		link: '/main/receipt',
 	},
 	{
 		img: '/assets/images/svg/report.svg',
 		name: 'Report Issue',
-		link: '/report',
+		link: '/main/report',
 	},
 	{ img: '/assets/images/svg/logout.svg', name: 'Log out', link: '/' },
 ];

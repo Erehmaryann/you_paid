@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import "./HomePage.scss";
 function HomePage() {
   return (
-    <div className='homepage '>
+    <div className='homepage row col max-vh-100'>
       <div
         className='background-image'
         style={{
           background: `linear-gradient(to bottom, rgba(10, 130, 180, 0.45), rgba(10, 130, 180, 0.45)),
-          url('/assets/images/svg/background.svg')`,
+          url('/assets/images/svg/background.png')`,
         }}
       ></div>
       <div className='other'>
@@ -25,7 +25,8 @@ function HomePage() {
           <div>
             <Link
               to='/login'
-              className='header-button btn btn-lg border border-1 rounded-2 fs-5 fw-bold d-flex justify-content-center align-items-center '
+              className='header-button bg-light btn btn-lg border border-1 rounded-2 fs-5 fw-bold d-flex justify-content-center align-items-center '
+              style={{ color: '#8CE68C' }}
             >
               Log In
             </Link>
@@ -49,7 +50,7 @@ function HomePage() {
           <div className='footer-left d-md-flex  justify-content-center align-items-center px-5 border-end'>
             <img
               className='icon1'
-              src='/assets/images/svg/Vector-1'
+              src='/assets/images/svg/Vector1.svg'
               alt=''
               style={{
                 width: "8rem",
@@ -71,7 +72,7 @@ function HomePage() {
           >
             <img
               className='icon1'
-              src='/assets/images/svg/vector.svg'
+              src='/assets/images/svg/Vector.svg'
               alt=''
               style={{
                 width: "3rem",
