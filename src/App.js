@@ -3,6 +3,7 @@ import './App.scss';
 import Sidebar from './component/Sidebar/Sidebar.component';
 import Dashboard from './pages/Dashboard.component';
 import Fee from './pages/Fee.component';
+import History from './pages/History.component';
 import ProfilePage from './pages/ProfilePage.component';
 import Receipt from './pages/Receipt.component';
 import Report from './pages/Report.component';
@@ -17,6 +18,7 @@ function App() {
         <Route path="payment" element={<Fee />} />
         <Route path="receipt" element={<Receipt />} />
         <Route path="report" element={<Report />} />
+        <Route path="history" element={<History />} />
       </Routes>
     </div>
   );
