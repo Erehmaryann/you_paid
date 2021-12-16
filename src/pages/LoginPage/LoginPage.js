@@ -72,9 +72,9 @@ function LoginPage() {
                   />
                 </div>
               </div>
-              <button type='submit' className='button btn'>
+              <Link to='/dashboard' className='button btn'>
                 LogIn
-              </button>
+              </Link>
             </form>
             <div className='support d-flex justify-content-center align-items-center'>
               <p>
