@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import VerticalDue from '../VerticalDue/VerticalDue.component';
+import VerticalDue from '../Vertical/Vertical.component';
 
 const TransData = [
 	{
