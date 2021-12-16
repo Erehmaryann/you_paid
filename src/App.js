@@ -8,7 +8,7 @@ import ProfilePage from "./pages/ProfilePage.component";
 import Receipt from "./pages/Receipt.component";
 import Report from "./pages/Report.component";
 import LoginPage from './pages/LoginPage/LoginPage';
-import SignUp from './pages/SignUpPage/SignUp';
+import SignUp from './pages/SignUp/SignUp';
 import MainWrapper from "./pages/Main/MainWrapper.jsx";
 
 function App() {
