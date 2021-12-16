@@ -72,7 +72,7 @@ function LoginPage() {
                   />
                 </div>
               </div>
-              <Link to='/dashboard' className='button btn'>
+              <Link to='/main/dashboard' className='button btn'>
                 LogIn
               </Link>
             </form>
