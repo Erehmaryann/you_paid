@@ -1,12 +1,11 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Sidebar from '../../component/Sidebar/Sidebar.component';
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Sidebar from "../../component/Sidebar/Sidebar.component";
 
 const MainWrapper = () => {
 	return (
-		<div className='row'>
+		<div className="row">
 			<Sidebar />
-
 			<Outlet />
 		</div>
 	);

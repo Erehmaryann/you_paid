@@ -17,11 +17,8 @@ function App() {
       <div className='App w-100 row m-0' style={{ overflowX: "hidden" }}>
         <Routes>
           <Route path='/' element={<HomePage />} />
-
-
           <Route path='login' element={<LoginPage />} />
           <Route path='signup' element={<SignUp />} />
-
           <Route path="main" element={<MainWrapper />}>
             <Route index element={<Dashboard />} />
             <Route path='dashboard' element={<Dashboard />} />
